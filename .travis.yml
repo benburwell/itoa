@@ -1,24 +1,30 @@
 language: node_js
 node_js:
-  - 6.1
-  - 6.0
-  - 5.11
-  - 5.10
-  - 5.9
-  - 5.8
-  - 5.7
-  - 5.6
-  - 5.5
-  - 5.4
-  - 5.3
-  - 5.2
-  - 5.1
-  - 5.0
-  - 4.4
-  - 4.3
-  - 4.2
-  - 4.1
-  - 4.0
-  - 0.12
-  - 0.11
-  - 0.10
+- 6.1
+- 6.0
+- 5.11
+- 5.1
+- 5.9
+- 5.8
+- 5.7
+- 5.6
+- 5.5
+- 5.4
+- 5.3
+- 5.2
+- 5.1
+- 5.0
+- 4.4
+- 4.3
+- 4.2
+- 4.1
+- 4.0
+- 0.12
+- 0.11
+- 0.1
+deploy:
+	provider: npm
+	on:
+		tags: true
+  api_key:
+    secure: AyxIPqgdhKxZwuDjEQXqDEkeiNO0suLLCDfHXANiL7nJUeBXnJGa62jvgz6jvLxXZkvjGzaVDzAtKAH0BoV604/gbSzXBhaU10tUrbSoEFvum2W1HmyvYzfDuJGYsR3AKQJ3SRT86UEL6aSB0MSGr/TrmdSjC6QpJtzQpBJ7BlXmMzpM/db6bc7wT8z7rkX7OsrGrB3fjX/YWx3tStPA3MSmc06glXtfZzBdnhXmo666LUsqWc4ggnxm22jXN5WNua6u3kmbQBMXCRWA2it3Lb+hWCKT3JdYX1vFpqCNoWm3bzaaYGlfRQSkWGE5qiNqoWMuXYm/YZki3XSnUCb0niTiJfBMzijbp86eZD0rdhBhkqdSGpg6NxW1VdV0qYrfR1u63jre+63iIUXKfa3MDkRnkIlSlHjIeW320EQx5oPwbuD36PyvD3CW7b5E3uVOu5uVBK+/OL6vsWlT0/pE0p6Ov3di5AK4GUnPdUSUUD3mNGXGYvFHlFlHPvmaOj/h3dLFJqTYHS9xfvkwTcGcLg+mEpl9sVUI41reWODIVSUE6ejK0fbUiBvtrh7FkNIUSrFh4xA4QtZ60jW7Ke77qV8OeY9bilh9+667xtpBjkQr40dD0KLI/9g/d+mlQZgVB6xhuDB3Jz3YzzLXpPpjCFq/07SbudURsLzNcTEiepw=

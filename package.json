@@ -1,6 +1,6 @@
 {
   "name": "itoa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert 10 to ten, all the way up to one centillion!",
   "main": "index.js",
   "scripts": {
